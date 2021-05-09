@@ -5,9 +5,10 @@ from django.http import JsonResponse
 data = {
 "Name" : "Dixie Sasu",
 "Track" : "Backend (Python)",
-"Message" : "Hi, mentors, thank you for this experience!"
+"Course" : "Python",
+"Message" : "Hi, mentors! Thank you for your assistance, your time is greatly appreciated!"
 }
 
 
-def data_index(request):
+def messagepage_index(request):
     return JsonResponse(data)
